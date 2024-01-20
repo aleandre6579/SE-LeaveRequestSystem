@@ -13,13 +13,13 @@
 <header>
     <h1 class="logo">LeaveYourRequest</h1>
     <ul>
-        <li><a href="{{ url_for('index') }}">Request</a></li>
+        <li><a href="{{ url_for('home.index') }}">Request</a></li>
         {% if 'logged_in' in session and session['logged_in'] %}
-        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+        <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
         {% else %}
-        <li><a href="{{ url_for('login') }}">Login</a></li>
+        <li><a href="{{ url_for('auth.login') }}">Login</a></li>
         {% endif %}
-        <li><a href="{{ url_for('register') }}">Register</a></li>
+        <li><a href="{{ url_for('auth.register') }}">Register</a></li>
     </ul>
     <div class="burger">
         <i class="fas fa-bars"></i>
@@ -28,6 +28,7 @@
 
 {% block content %}{% endblock %}
 <script src="../static/js/nav.js"></script>
+<script src="../static/js/main.js"></script>
 </body>
 </html>
 

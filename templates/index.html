@@ -24,7 +24,7 @@
             <div class="table-box">{{ leave.date_start.date() }}</div>
             <div class="table-box">{{ leave.date_end.date() }}</div>
             <div class="table-box">
-                <a href="/delete/{{ leave.id }}">Delete</a>
+                <button type="submit" onclick="sendRequest('delete', '/leave/{{ leave.id }}')">Delete</button>
             </div>
         </div>
         {% endfor %}
