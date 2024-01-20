@@ -14,14 +14,12 @@ class User(db.Model):
     user_name = db.Column(db.Text, nullable=False)
     password = db.Column(db.Text, nullable=False)
     requests = db.relationship('LeaveRequest', backref='user', lazy=True)
-    print("change for git")
 
     def __repr__(self):
         return '<User %r>' % self.id
 
 
 class LeaveRequest(db.Model):
-    print("change for git")
     __tablename__ = 'leave_request'
     id = db.Column(db.Integer, primary_key=True)
     reason = db.Column(db.String(200), nullable=False)

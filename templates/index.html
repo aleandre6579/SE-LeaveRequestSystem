@@ -3,32 +3,32 @@
 {% block content %}
 <div class="content">
     <h1>Leave Request</h1>
-    <table>
-        <tr>
-            <th>User</th>
-            <th>Reason</th>
-            <th>Leave Start</th>
-            <th>Leave End</th>
-            <th>Delete</th>
-        </tr>
+    <div class="table">
+        <div class="table-head">
+            <div class="table-box">User</div>
+            <div class="table-box">Reason</div>
+            <div class="table-box">Leave Start</div>
+            <div class="table-box">Leave End</div>
+            <div class="table-box">Delete</div>
+        </div>
         {% for leave in leaves %}
-        <tr>
-            <td>{{ leave.user_id }}</td>
-            <td>
+        <div class="table-row">
+            <div class="table-box">{{ leave.user_id }}</div>
+            <div class="table-box">
                 {% if leave.user_id == session.get('user_id') %}
                 {{ leave.reason }}
                 {% else %}
                 Confidential
                 {% endif %}
-            </td>
-            <td>{{ leave.date_start.date() }}</td>
-            <td>{{ leave.date_end.date() }}</td>
-            <td>
+            </div>
+            <div class="table-box">{{ leave.date_start.date() }}</div>
+            <div class="table-box">{{ leave.date_end.date() }}</div>
+            <div class="table-box">
                 <a href="/delete/{{ leave.id }}">Delete</a>
-            </td>
-        </tr>
+            </div>
+        </div>
         {% endfor %}
-    </table>
+    </div>
 
     <form action="" method="post">
         <input type="text" name="reason" id="reason" placeholder="State your reason">
@@ -38,11 +38,51 @@
         <input type="submit" value="Request Leave">
     </form>
 </div>
-{% endblock %}
 
 <style>
-    table {
-        background-color: black;
-        border: black 1px solid;
+    :root {
+        --table-color: #B1E3FF;
+        --head-color: #0076B8;
+        --head-font-color: #E5E5E5;
+    }
+
+    .content {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .table {
+        width: 100%;
+        background-color: var(--table-color);
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .table-head {
+        font-weight: 700;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--head-color);
+        border-radius: 4px;
+        padding: 5px;
+        color: var(--head-font-color);
+    }
+
+    .table-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .table-box {
+        width: 15%;
+        text-align: center;
     }
 </style>
+{% endblock %}
+
