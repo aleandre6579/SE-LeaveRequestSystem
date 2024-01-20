@@ -4,7 +4,7 @@ from flask import (
 )
 from SE_LeaveRequestSystem.db.models import (LeaveRequest)
 from SE_LeaveRequestSystem.extensions import db
-from SE_LeaveRequestSystem.db.leave import hasSameDayConflict, validatesLeaveQuota
+from SE_LeaveRequestSystem.db import leave
 
 
 def deleteLeave(id: int):
@@ -34,12 +34,16 @@ def postLeave():
     except ValueError:
         return 'Please enter valid dates'
 
-    if hasSameDayConflict(leave_date_start):
+    if not leave.validatesSameDayConflict(leave_date_start):
         return "There is a day conflict: can't have 2 leaves starting on the same day"
 
     quota = 10
-    if not validatesLeaveQuota(leave_date_start, quota):
+    if not leave.validatesLeaveQuota(leave_date_start, quota):
         return f"You cannot have more than {quota} leaves in a year!"
+
+    maxDays = 60
+    if not leave.validatesMaxLeaveDate(leave_date_start, maxDays):
+        return f"You cannot request leave over {maxDays} days from now!"
 
     new_leave = LeaveRequest(
         reason=leave_reason,
