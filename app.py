@@ -7,6 +7,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///leave_request.db'
 app.config['SECRET_KEY'] = 'myverysecretkey'
 db = SQLAlchemy(app)
 
+
 class User(db.Model):
     __tablename__ = 'user'
     user_id = db.Column(db.Integer, primary_key=True)
@@ -17,6 +18,7 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.id
+
 
 class LeaveRequest(db.Model):
     print("change for git")
@@ -38,7 +40,6 @@ def index():
         return redirect('/login')
 
     user_id = session.get('user_id')
-
 
     if request.method == 'POST':
         leave_reason = request.form['reason']
@@ -64,10 +65,11 @@ def index():
         except Exception as e:
             print(f"Error: {e}")
             return 'There was an issue adding your task'
-    else:
+    elif request.method == 'GET':
         leaves = LeaveRequest.query.order_by(LeaveRequest.date_created).all()
         return render_template('index.html', leaves=leaves)
-
+    else:
+        print("Request method not recognized")
 
 
 @app.route('/login', methods=['POST', 'GET'])
@@ -109,6 +111,7 @@ def logout():
     session.pop('logged_in', None)
     session.pop('user_id', None)
     return redirect('/login')
+
 
 @app.route('/delete/<int:id>')
 def delete(id):

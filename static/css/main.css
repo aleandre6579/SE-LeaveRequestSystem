@@ -1,4 +1,9 @@
 body {
     margin: 0;
     font-family : sans-serif;
+    overflow: hidden;
+}
+
+.content {
+    padding:50px;
 }
