@@ -24,7 +24,9 @@
             <div class="table-box">{{ leave.date_start.date() }}</div>
             <div class="table-box">{{ leave.date_end.date() }}</div>
             <div class="table-box">
+                {% if leave.user_id == session.get('user_id') %}
                 <button type="submit" onclick="sendRequest('delete', '/leave/{{ leave.id }}')">Delete</button>
+                {% endif %}
             </div>
         </div>
         {% endfor %}

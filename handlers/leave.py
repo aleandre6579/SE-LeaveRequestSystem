@@ -1,21 +1,25 @@
 from datetime import datetime
 from flask import (
-    session, redirect, request
+    session, redirect, request, make_response
 )
 from SE_LeaveRequestSystem.db.models import (LeaveRequest)
 from SE_LeaveRequestSystem.extensions import db
 from SE_LeaveRequestSystem.db import leave
 
 
-def deleteLeave(id: int):
-    leave_to_delete = LeaveRequest.query.get_or_404(id)
+def deleteLeave(leave_id: int):
+    leave_to_delete = LeaveRequest.query.get_or_404(leave_id)
 
     # Check if the logged-in user is the owner of the request
     if leave_to_delete.user_id == session.get('user_id'):
+
+        if leave.startDatePassed(leave_to_delete.date_start):
+            return 'Cannot delete because the start date has already passed'
+
         try:
             db.session.delete(leave_to_delete)
             db.session.commit()
-            return redirect('/')
+            return {'delete_success': True}
         except:
             return 'There was an issue deleting your task'
     else:
@@ -41,9 +45,9 @@ def postLeave():
     if not leave.validatesLeaveQuota(leave_date_start, quota):
         return f"You cannot have more than {quota} leaves in a year!"
 
-    maxDays = 60
-    if not leave.validatesMaxLeaveDate(leave_date_start, maxDays):
-        return f"You cannot request leave over {maxDays} days from now!"
+    max_days = 60
+    if not leave.validatesMaxLeaveDate(leave_date_start, max_days):
+        return f"You cannot request leave over {max_days} days from now!"
 
     new_leave = LeaveRequest(
         reason=leave_reason,
