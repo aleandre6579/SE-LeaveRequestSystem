@@ -4,6 +4,7 @@ from flask import (
 )
 from SE_LeaveRequestSystem.db.models import (LeaveRequest)
 from SE_LeaveRequestSystem.extensions import db
+from SE_LeaveRequestSystem.db.leave import hasSameDayConflict
 
 
 def deleteLeave(id: int):
@@ -32,6 +33,9 @@ def postLeave():
         leave_date_end = datetime.strptime(leave_date_end_str, '%Y-%m-%d')
     except ValueError:
         return 'Please enter valid dates'
+
+    if hasSameDayConflict(leave_date_start):
+        return "There is a day conflict: can't have 2 leaves starting on the same day"
 
     new_leave = LeaveRequest(
         reason=leave_reason,
