@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask import session, redirect, request, render_template
 from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.db.models import LeaveRequest
+from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
 
 
 def index():

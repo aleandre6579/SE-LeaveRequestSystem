@@ -1,6 +1,6 @@
 from datetime import datetime
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.db.models import LeaveRequest
+from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
+from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
 from flask import session
 
 

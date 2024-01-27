@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, redirect, session
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.routes import (auth, leave, home)
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
+from flask import Flask
+from SE_LeaveRequestSystem.se_leaverequestsystem.routes import (leave, home)
+from SE_LeaveRequestSystem.se_leaverequestsystem.routes import auth
+from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
 
 
 def create_app():
