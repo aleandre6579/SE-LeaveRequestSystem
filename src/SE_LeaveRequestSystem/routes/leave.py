@@ -2,7 +2,7 @@ from flask import (
     Blueprint, request, redirect
 )
 
-from SE_LeaveRequestSystem.handlers import leave
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.handlers import leave
 
 bp = Blueprint('leave', __name__, url_prefix='/leave')
 

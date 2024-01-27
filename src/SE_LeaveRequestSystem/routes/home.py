@@ -1,7 +1,7 @@
 from flask import (
     Blueprint
 )
-from SE_LeaveRequestSystem.handlers import home
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.handlers import home
 
 bp = Blueprint('home', __name__, url_prefix='/')
 

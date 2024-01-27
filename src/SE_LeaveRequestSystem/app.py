@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, session
-from SE_LeaveRequestSystem.routes import (auth, leave, home)
-from SE_LeaveRequestSystem.extensions import db
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.routes import (auth, leave, home)
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
 
 
 def create_app():
