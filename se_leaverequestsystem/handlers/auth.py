@@ -1,6 +1,5 @@
-from flask import (
-    session, redirect, request, render_template
-)
+from flask import redirect, render_template, request, session
+
 from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import User
 from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
 

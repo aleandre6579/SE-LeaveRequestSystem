@@ -1,7 +1,6 @@
-from flask import (
-    Blueprint
-)
-from SE_LeaveRequestSystem.se_leaverequestsystem.handlers import (auth)
+from flask import Blueprint
+
+from SE_LeaveRequestSystem.se_leaverequestsystem.handlers import auth
 
 bp = Blueprint('auth', __name__, url_prefix='/')
 

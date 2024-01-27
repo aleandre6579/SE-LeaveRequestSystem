@@ -1,10 +1,10 @@
 from datetime import datetime
-from flask import (
-    session, redirect, request
-)
-from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import (LeaveRequest)
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
+
+from flask import redirect, request, session
+
+from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
 from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.db import leave
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
 
 
 def deleteLeave(leave_id: int):

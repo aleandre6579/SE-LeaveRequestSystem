@@ -1,6 +1,4 @@
-from flask import (
-    Blueprint, request, redirect
-)
+from flask import Blueprint, redirect, request
 
 from SE_LeaveRequestSystem.se_leaverequestsystem.handlers import leave
 

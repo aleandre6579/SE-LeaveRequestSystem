@@ -1,5 +1,6 @@
 from datetime import datetime
-from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import (db)
+
+from SE_LeaveRequestSystem.src.SE_LeaveRequestSystem.extensions import db
 
 
 class User(db.Model):
