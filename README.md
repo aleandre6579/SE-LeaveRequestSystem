@@ -7,6 +7,11 @@
 poetry install
 ```
 
+## Run App
+```
+poetry run flask --app src/SE_LeaveRequestSystem/app.py run
+```
+
 ## Run Test
 ```
 poetry run pytest
