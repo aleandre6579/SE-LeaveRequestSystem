@@ -1,7 +1,8 @@
 from flask import Flask
 
 from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
-from SE_LeaveRequestSystem.se_leaverequestsystem.routes import auth, home, leave
+from SE_LeaveRequestSystem.se_leaverequestsystem.routes import (auth, home,
+                                                                leave)
 
 
 def create_app():
