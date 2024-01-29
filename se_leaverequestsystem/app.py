@@ -1,14 +1,13 @@
 from flask import Flask
 
 from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
-from SE_LeaveRequestSystem.se_leaverequestsystem.routes import (auth, home,
-                                                                leave)
+from SE_LeaveRequestSystem.se_leaverequestsystem.routes import auth, home, leave
 
 
 def create_app():
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///leave_request.db'
-    app.config['SECRET_KEY'] = 'myverysecretkey'
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///leave_request.db"
+    app.config["SECRET_KEY"] = "myverysecretkey"
 
     db.init_app(app)
 
@@ -22,7 +21,7 @@ def create_app():
     return app
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app = create_app()
     db.app = app
     app.run(debug=True)
