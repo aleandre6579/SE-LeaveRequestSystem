@@ -1,7 +1,7 @@
 from flask import redirect, render_template, request, session
 
-from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import User
-from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
+from SE_LeaveRequestSystem.SE_LeaveRequestSystem.db.models import User
+from SE_LeaveRequestSystem.SE_LeaveRequestSystem.extensions import db
 
 
 def login():
