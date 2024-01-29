@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from SE_LeaveRequestSystem.SE_LeaveRequestSystem.handlers import home
+from SE_LeaveRequestSystem.se_leaverequestsystem.handlers import home
 
 bp = Blueprint("home", __name__, url_prefix="/")
 
