@@ -1,9 +1,7 @@
 from datetime import datetime
 
 from flask import session
-
-from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
-from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
+from models import LeaveRequest
 
 
 def validatesSameDayConflict(date: datetime.day) -> bool:
@@ -15,6 +13,7 @@ def validatesSameDayConflict(date: datetime.day) -> bool:
 
 def validatesLeaveQuota(start_date: datetime.day, quota: int) -> bool:
     user_leaves = LeaveRequest.query.filter_by(user_id=session.get("user_id")).all()
+
     same_year_leaves = list(
         filter(lambda leave: (leave.date_start.year == start_date.year), user_leaves)
     )
@@ -26,6 +25,6 @@ def validatesMaxLeaveDate(start_date: datetime.day, max_days: int) -> bool:
     return (start_date - today).days < max_days
 
 
-def startDatePassed(start_date: datetime.day):
+def startDatePassed(start_date: datetime.day) -> bool:
     today = datetime.now()
     return (today - start_date).days >= 0

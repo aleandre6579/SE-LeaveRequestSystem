@@ -1,11 +1,9 @@
+from extensions import db
 from flask import Flask
-
-from SE_LeaveRequestSystem.se_leaverequestsystem.extensions import db
-from SE_LeaveRequestSystem.se_leaverequestsystem.routes import (auth, home,
-                                                                leave)
+from routes import auth, home, leave
 
 
-def create_app():
+def create_app() -> Flask:
     app = Flask(__name__)
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///leave_request.db"
     app.config["SECRET_KEY"] = "myverysecretkey"
