@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "se_leaverequestsystem"
+name = "SE_LeaveRequestSystem"
 version = "0.1.0"
 description = ""
 authors = ["aleandre6579 <aleandre6579.simon@gmail.com>"]
