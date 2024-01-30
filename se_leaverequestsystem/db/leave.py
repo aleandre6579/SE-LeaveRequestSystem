@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from flask import session
-from models import LeaveRequest
+from .models import LeaveRequest
 
 
 def validatesSameDayConflict(date: datetime.day) -> bool:

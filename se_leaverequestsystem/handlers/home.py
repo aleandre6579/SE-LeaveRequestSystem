@@ -1,7 +1,7 @@
 from flask import redirect, render_template, session
 from werkzeug import Response
 
-from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
+from ..db.models import LeaveRequest
 
 
 def index() -> Response | str:

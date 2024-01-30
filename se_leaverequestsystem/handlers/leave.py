@@ -1,10 +1,8 @@
 from datetime import datetime
 
-from flask import redirect, request, session
-from werkzeug import Response
+from flask import redirect, request, session, Response
 
-from SE_LeaveRequestSystem.se_leaverequestsystem.db.models import LeaveRequest
-
+from ..db.models import LeaveRequest
 from ..db import leave
 from ..extensions import db
 

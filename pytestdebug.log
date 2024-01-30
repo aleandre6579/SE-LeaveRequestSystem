@@ -1,0 +1,1540 @@
+versions pytest-7.4.4, python-3.11.2.final.0
+cwd=/home/shad/stuff/muic-software/SE_LeaveRequestSystem
+args=('.', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+    pytest_plugin_registered [hook]
+        plugin: <Session SE_LeaveRequestSystem exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f5e25d83790>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f5e25d83c50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f5e27ec8b10>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/pytest_cov/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_cov.plugin.CovPlugin object at 0x7f5e283b07d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f5e25d83790>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f5e25d83c50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f5e25b903d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f5e25b90310>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f5e27ec8b10>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/pytest_cov/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_cov.plugin.CovPlugin object at 0x7f5e283b07d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f5e25d83790>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f5e25d83c50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f5e25b903d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f5e25b90310>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f5e25bd0ad0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f5e28034690>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+          start_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem
+          startdir: /home/shad/stuff/muic-software/SE_LeaveRequestSystem
+      finish pytest_report_header --> [['rootdir: /home/shad/stuff/muic-software/SE_LeaveRequestSystem', 'configfile: tox.ini', 'plugins: cov-4.1.0'], ['using: pytest-7.4.4', 'setuptools registered plugins:', '  pytest-cov-4.1.0 at /home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/pytest_cov/plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['.'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (PosixPath('/home/shad/stuff/muic-software/SE_LeaveRequestSystem'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+              finish pytest_pycollect_makemodule --> <Package SE_LeaveRequestSystem> [hook]
+            finish pytest_collect_file --> [<Package SE_LeaveRequestSystem>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/__init__.py
+              finish pytest_pycollect_makemodule --> <Package SE_LeaveRequestSystem> [hook]
+            finish pytest_collect_file --> [<Package SE_LeaveRequestSystem>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.git
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.git
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.github
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.github
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.idea
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.idea
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pytest_cache
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pytest_cache
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+              finish pytest_pycollect_makemodule --> <Package se_leaverequestsystem> [hook]
+            finish pytest_collect_file --> [<Package se_leaverequestsystem>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+              finish pytest_pycollect_makemodule --> <Package db> [hook]
+            finish pytest_collect_file --> [<Package db>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+              finish pytest_pycollect_makemodule --> <Package handlers> [hook]
+            finish pytest_collect_file --> [<Package handlers>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+              finish pytest_pycollect_makemodule --> <Package routes> [hook]
+            finish pytest_collect_file --> [<Package routes>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+                collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+                path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+                  path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+              finish pytest_pycollect_makemodule --> <Module tests/test_leave.py> [hook]
+            finish pytest_collect_file --> [<Module tests/test_leave.py>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=6 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=6 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package SE_LeaveRequestSystem> [collection]
+      pytest_collectstart [hook]
+          collector: <Package SE_LeaveRequestSystem>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package SE_LeaveRequestSystem>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitattributes
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitattributes
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitattributes
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitattributes
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitignore
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitignore
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pre-commit-config.yaml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pre-commit-config.yaml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pre-commit-config.yaml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pre-commit-config.yaml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/README.md
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/README.md
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/SE_LeaveRequestSystem.iml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/SE_LeaveRequestSystem.iml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/SE_LeaveRequestSystem.iml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/SE_LeaveRequestSystem.iml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/coverage.xml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/coverage.xml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/coverage.xml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/coverage.xml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/poetry.lock
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/poetry.lock
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/poetry.lock
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/poetry.lock
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pyproject.toml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pyproject.toml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pyproject.toml
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pyproject.toml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pytestdebug.log
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pytestdebug.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pytestdebug.log
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/pytestdebug.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/sonar-project.properties
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/sonar-project.properties
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/sonar-project.properties
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/sonar-project.properties
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tox.ini
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tox.ini
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package SE_LeaveRequestSystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tox.ini
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tox.ini
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.git
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.github
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.github
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.idea
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.idea
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pytest_cache
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/__init___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/coverage_html.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a___init___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_auth_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_home_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_3049e1bdfd31ff8a_leave_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37___init___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_auth_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_home_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_671777f70e8b3e37_leave_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae___init___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_6dbf4d55d38428ae_extensions_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b___init___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_leave_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/d_706239b9a698192b_models_py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/favicon_32.png
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_closed.png
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/keybd_open.png
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/status.json
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/cov_html/style.css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/instance/leave_request.db
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport '__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package se_leaverequestsystem> [collection]
+      pytest_collectstart [hook]
+          collector: <Package se_leaverequestsystem>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package se_leaverequestsystem>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/extensions.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/extensions.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package se_leaverequestsystem>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/extensions.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/extensions.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/css/main.css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/main.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/static/js/nav.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/base.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/not_found.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/login.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/templates/auth/register.html
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'se_leaverequestsystem/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'se_leaverequestsystem/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package db> [collection]
+      pytest_collectstart [hook]
+          collector: <Package db>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package db>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/leave.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package db>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/leave.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/models.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/models.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package db>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/models.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/db/models.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'se_leaverequestsystem/db/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'se_leaverequestsystem/db/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package handlers> [collection]
+      pytest_collectstart [hook]
+          collector: <Package handlers>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package handlers>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/auth.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/auth.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package handlers>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/auth.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/auth.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/home.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/home.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package handlers>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/home.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/home.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/leave.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package handlers>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/handlers/leave.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'se_leaverequestsystem/handlers/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'se_leaverequestsystem/handlers/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package routes> [collection]
+      pytest_collectstart [hook]
+          collector: <Package routes>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package routes>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/auth.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/auth.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package routes>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/auth.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/auth.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/home.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/home.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package routes>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/home.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/home.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            collection_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/leave.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package routes>
+            file_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/leave.py
+            path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem/se_leaverequestsystem/routes/leave.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'se_leaverequestsystem/routes/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'se_leaverequestsystem/routes/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/test_leave.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/test_leave.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/test_leave.py>
+      find_module called for: test_leave [assertion]
+      matched test file '/home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py' [assertion]
+      found cached rewritten pyc for /home/shad/stuff/muic-software/SE_LeaveRequestSystem/tests/test_leave.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_leave.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_leave.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/home/shad/.cache/pypoetry/virtualenvs/se-leaverequestsystem-Gvav-U3T-py3.11/lib/python3.11/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        finish pytest_make_collect_report --> <CollectReport 'tests/test_leave.py' lenresult=0 outcome='failed'> [hook]
+        pytest_exception_interact [hook]
+            node: <Module tests/test_leave.py>
+            call: <CallInfo when='collect' excinfo=<ExceptionInfo RuntimeError('Working outside of request context.\n\nThis typically means that you attempted to use functionality that needed\nan active HTTP request. Consult the documentation on testing for\ninformation about how to avoid this problem.') tblen=13>>
+            report: <CollectReport 'tests/test_leave.py' lenresult=0 outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport 'tests/test_leave.py' lenresult=0 outcome='failed'>
+        finish pytest_collectreport --> [] [hook]
+        pytest_collection_modifyitems [hook]
+            session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+            items: []
+        finish pytest_collection_modifyitems --> [] [hook]
+        pytest_collection_finish [hook]
+            session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+          pytest_report_collectionfinish [hook]
+              config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+              items: []
+              start_path: /home/shad/stuff/muic-software/SE_LeaveRequestSystem
+              startdir: /home/shad/stuff/muic-software/SE_LeaveRequestSystem
+          finish pytest_report_collectionfinish --> [] [hook]
+        finish pytest_collection_finish --> [] [hook]
+      finish pytest_collection --> None [hook]
+      pytest_runtestloop [hook]
+          session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+      pytest_keyboard_interrupt [hook]
+          excinfo: <ExceptionInfo Interrupted('1 error during collection') tblen=12>
+      finish pytest_keyboard_interrupt --> [] [hook]
+      pytest_sessionfinish [hook]
+          session: <Session SE_LeaveRequestSystem exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=1 testscollected=0>
+          exitstatus: 2
+        pytest_terminal_summary [hook]
+            terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f5e25b903d0>
+            exitstatus: 2
+            config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+        early skip of rewriting module: pygments [assertion]
+          pytest_report_teststatus [hook]
+              report: <CollectReport 'tests/test_leave.py' lenresult=0 outcome='failed'>
+              config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+        finish pytest_terminal_summary --> [] [hook]
+      finish pytest_sessionfinish --> [] [hook]
+      pytest_unconfigure [hook]
+          config: <_pytest.config.Config object at 0x7f5e27ec8b10>
+      finish pytest_unconfigure --> [] [hook]
