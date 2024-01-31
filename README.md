@@ -1,6 +1,6 @@
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=aleandre6579_SE_LeaveRequestSystem&metric=coverage)](https://sonarcloud.io/summary/new_code?id=aleandre6579_SE_LeaveRequestSystem)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=aleandre6579_se_leaverequestsystem&metric=coverage)](https://sonarcloud.io/summary/new_code?id=aleandre6579_se_leaverequestsystem)
 
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=aleandre6579_SE_LeaveRequestSystem&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=aleandre6579_SE_LeaveRequestSystem)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=aleandre6579_se_leaverequestsystem&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=aleandre6579_se_leaverequestsystem)
 
 ## Setup Instruction
 ```
