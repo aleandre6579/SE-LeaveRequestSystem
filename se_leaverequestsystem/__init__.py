@@ -1,7 +1,8 @@
 from flask import Flask
 
-from .routes import auth, home, leave
 from .extensions import db
+from .routes import auth, home, leave
+
 
 def create_app(database_uri="sqlite:///leave_request.db") -> Flask:
     app = Flask(__name__)

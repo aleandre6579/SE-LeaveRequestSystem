@@ -14,7 +14,7 @@ def login():
             session["user_id"] = user.user_id
             return redirect("/")
         else:
-            return "Invalid username or password"
+            return "Invalid username or password", 400
     else:
         return render_template("auth/login.html")
 

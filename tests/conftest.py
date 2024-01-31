@@ -1,6 +1,7 @@
 import pytest
-from se_leaverequestsystem.db.models import User, LeaveRequest
+
 from se_leaverequestsystem import create_app, db
+from se_leaverequestsystem.db.models import LeaveRequest, User
 
 
 @pytest.fixture()
@@ -9,7 +10,7 @@ def app():
 
     with app.app_context():
         db.create_all()
-    print("CREATE DATABASE")
+
     yield app
 
     with app.app_context():
@@ -27,6 +28,7 @@ def register(client, username, password):
         '/register',
         data={"username": username, "password": password}
     )
+    return response
 
 
 def login(client, username, password):
@@ -34,3 +36,19 @@ def login(client, username, password):
         '/login',
         data={"username": username, "password": password}
     )
+    return response
+
+
+def post_leave(client, reason, date_start, date_end):
+    response = client.post(
+        "/leave",
+        data={"reason": reason, "date_start": date_start, "date_end": date_end}
+    )
+    return response
+
+
+def delete_leave(client, leave_id):
+    response = client.delete(
+        "/leave/"+leave_id
+    )
+    return response

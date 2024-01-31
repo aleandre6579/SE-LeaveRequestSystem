@@ -4,7 +4,7 @@ from werkzeug import Response
 from ..db.models import LeaveRequest
 
 
-def index() -> Response | str:
+def index():
     if "logged_in" not in session or not session["logged_in"]:
         return redirect("/login")
 
