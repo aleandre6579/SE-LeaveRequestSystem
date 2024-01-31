@@ -9,7 +9,7 @@ def app():
 
     with app.app_context():
         db.create_all()
-
+    print("CREATE DATABASE")
     yield app
 
     with app.app_context():

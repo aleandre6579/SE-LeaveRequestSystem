@@ -1,4 +1,4 @@
-from time import sleep
+from datetime import datetime
 from se_leaverequestsystem.db.models import User, LeaveRequest
 from conftest import register, login
 
@@ -29,16 +29,15 @@ def test_post_leave(app, client):
 
     response = client.post(
         "/leave",
-        data={"reason:": "sick", "date_start": "2024-02-01", "date_end": "2024-02-02"}
+        data={"reason": "sick", "date_start": "2023-02-01", "date_end": "2023-02-02"}
     )
 
-    print(response.data, response.request)
     with app.app_context():
         print(LeaveRequest.query.all())
         assert LeaveRequest.query.count() == 1
         new_leave = LeaveRequest.query.filter_by(reason="sick").first()
         assert new_leave is not None
         assert new_leave.reason == "sick"
-        assert new_leave.date_start == "2023-01-01"
-        assert new_leave.date_end == "2023-04-02"
+        assert new_leave.date_start.strftime("%Y-%m-%d") == "2023-02-01"
+        assert new_leave.date_end.strftime("%Y-%m-%d") == "2023-02-02"
 
