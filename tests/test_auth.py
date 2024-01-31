@@ -1,6 +1,6 @@
 from conftest import login, register
 
-from se_leaverequestsystem.db.models import LeaveRequest, User
+from se_leaverequestsystem.db.models import User
 
 
 def test_register_post(app, client):
@@ -24,7 +24,7 @@ def test_login_post(app, client):
     login(client, "alex", "pass")
 
     with client.session_transaction() as session:
-        assert session["logged_in"] == True
+        assert session["logged_in"] is True
         assert session["user_id"] == 1
 
 

@@ -3,3 +3,5 @@ __pycache__
 SE_LeaveRequestSystem.iml
 .idea
 .pytest_cache
+
+.env

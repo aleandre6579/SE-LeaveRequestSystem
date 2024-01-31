@@ -8,7 +8,6 @@ from ..extensions import db
 
 
 def delete_leave(leave_id: int):
-
     leave_to_delete = LeaveRequest.query.filter_by(id=leave_id).first()
     if leave_to_delete is None:
         return f"Leave with id {leave_id} does not exist", 404

@@ -1,7 +1,6 @@
 import pytest
 
 from se_leaverequestsystem.app import create_app, db
-from se_leaverequestsystem.db.models import LeaveRequest, User
 
 
 @pytest.fixture()

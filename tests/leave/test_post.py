@@ -1,6 +1,6 @@
-from conftest import delete_leave, login, post_leave, register
+from conftest import login, post_leave, register
 
-from se_leaverequestsystem.db.models import LeaveRequest, User
+from se_leaverequestsystem.db.models import LeaveRequest
 
 
 def test_post_leave(app, client):

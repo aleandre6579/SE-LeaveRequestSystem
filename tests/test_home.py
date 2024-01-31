@@ -1,7 +1,5 @@
 from conftest import login, register
 
-from se_leaverequestsystem.db.models import LeaveRequest, User
-
 
 def test_home(app, client):
     response = client.get("/")
