@@ -25,30 +25,24 @@ def client(app):
 
 def register(client, username, password):
     response = client.post(
-        '/register',
-        data={"username": username, "password": password}
+        "/register", data={"username": username, "password": password}
     )
     return response
 
 
 def login(client, username, password):
-    response = client.post(
-        '/login',
-        data={"username": username, "password": password}
-    )
+    response = client.post("/login", data={"username": username, "password": password})
     return response
 
 
 def post_leave(client, reason, date_start, date_end):
     response = client.post(
         "/leave",
-        data={"reason": reason, "date_start": date_start, "date_end": date_end}
+        data={"reason": reason, "date_start": date_start, "date_end": date_end},
     )
     return response
 
 
 def delete_leave(client, leave_id):
-    response = client.delete(
-        "/leave/"+leave_id
-    )
+    response = client.delete("/leave/" + leave_id)
     return response

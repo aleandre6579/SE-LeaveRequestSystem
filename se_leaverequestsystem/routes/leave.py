@@ -18,5 +18,3 @@ def postLeave():
 @bp.route("/<int:leave_id>", methods=["DELETE"])
 def deleteLeave(leave_id: int) -> str | dict[str, bool]:
     return leave.deleteLeave(leave_id)
-
-
