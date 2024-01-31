@@ -7,7 +7,7 @@ from ..db.models import LeaveRequest
 from ..extensions import db
 
 
-def deleteLeave(leave_id: int):
+def delete_leave(leave_id: int):
 
     leave_to_delete = LeaveRequest.query.filter_by(id=leave_id).first()
     if leave_to_delete is None:
@@ -15,7 +15,7 @@ def deleteLeave(leave_id: int):
 
     # Check if the logged-in user is the owner of the request
     if leave_to_delete.user_id == session.get("user_id"):
-        if leave.startDatePassed(leave_to_delete.date_start):
+        if leave.start_date_passed(leave_to_delete.date_start):
             return "Cannot delete because the start date has already passed", 400
 
         try:
@@ -29,7 +29,7 @@ def deleteLeave(leave_id: int):
         return "You do not have permission to delete this request", 403
 
 
-def postLeave():
+def post_leave():
     user_id = session.get("user_id")
     leave_reason = request.form["reason"]
     leave_date_start_str = request.form["date_start"]
@@ -41,15 +41,15 @@ def postLeave():
     except ValueError:
         return "Please enter valid dates", 400
 
-    if not leave.validatesSameDayConflict(leave_date_start):
+    if not leave.validates_same_day_conflict(leave_date_start):
         return "Can't have 2 leaves starting on the same day", 400
 
     quota = 10
-    if not leave.validatesLeaveQuota(leave_date_start, quota):
+    if not leave.validates_leave_quota(leave_date_start, quota):
         return f"You cannot have more than {quota} leaves in a year!", 400
 
     max_days = 60
-    if not leave.validatesMaxLeaveDate(leave_date_start, max_days):
+    if not leave.validates_max_leave_date(leave_date_start, max_days):
         return f"You cannot request leave over {max_days} days from now!", 400
 
     new_leave = LeaveRequest(

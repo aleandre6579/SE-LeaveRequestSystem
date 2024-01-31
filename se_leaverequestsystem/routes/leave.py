@@ -12,9 +12,9 @@ def not_found():
 
 @bp.route("", methods=["POST"])
 def postLeave():
-    return leave.postLeave()
+    return leave.post_leave()
 
 
 @bp.route("/<int:leave_id>", methods=["DELETE"])
 def deleteLeave(leave_id: int) -> str | dict[str, bool]:
-    return leave.deleteLeave(leave_id)
+    return leave.delete_leave(leave_id)
